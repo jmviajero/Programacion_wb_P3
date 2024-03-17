@@ -1,0 +1,77 @@
+/*Algunos estilos los he obtenido de esta página: https://www.mclibre.org/consultar/htmlcss/ */
+
+.Dividir {
+  display: flex;
+  flex-direction: row;
+}
+
+.Cabezera {
+  width: 80vh;
+  color: white;
+  background-color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  margin: auto;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.listado {
+  margin-top: 5px;
+  width: 80vh;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+
+.comp {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  h4  {
+    color: blue;
+  }
+
+  label {
+    padding-left: 10px;
+    font-size: 10px;
+  }
+}
+
+.comp:hover {
+  background-color: cornflowerblue;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+}
+
+.solicitar  {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 30%;
+  height: 70px;
+  width: 100px;
+}
+
+.imagen{
+  height: 90px;
+  width: 90px;
+}
+
+.guardar  {
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  border-radius: 30%;
+  height: 70px;
+  width: 100px;
+  margin-left: 10px;
+}
